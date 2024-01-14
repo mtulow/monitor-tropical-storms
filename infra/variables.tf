@@ -20,8 +20,8 @@ variable "storage_class" {
   type          = string
 }
 
-variable "BQ_DATASET" {
+variable "BQ_SUFFIX" {
   description   = "BigQuery Dataset that raw data (from GCS) will be written to"
-  default       = "raw_gis"
+  default       = "gis"
   type          = string
 }

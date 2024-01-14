@@ -163,9 +163,15 @@ cython_debug/
 *.terraform*
 *.tfstate
 *.tfstate.*
+*.tfvars
+*.tfplan
+plan.out
 
 # Data Directory
 data
 
 # Credentials
-infra-sa-credentials.json
+configs
+
+# 
+slides/

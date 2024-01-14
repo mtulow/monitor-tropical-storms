@@ -5,6 +5,7 @@ output "data_lake_bucket" {
 }
 
 # Data Warehouse
-output "data_warehouse_name" {
+output "data_warehouse" {
     value = google_bigquery_dataset.dataset.dataset_id
 }
+
