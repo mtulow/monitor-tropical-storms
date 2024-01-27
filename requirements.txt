@@ -1,1 +1,9 @@
-apache-beam
+pip
+gunicorn
+pyarrow
+pandas
+pandas-gbq
+geopandas
+dbt-core
+dbt-bigquery
+dbt-postgres
