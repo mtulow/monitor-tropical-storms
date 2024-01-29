@@ -181,3 +181,5 @@ slides/
 .dockerignore
 
 logs/
+
+database.ini
