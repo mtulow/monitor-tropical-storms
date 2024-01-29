@@ -183,3 +183,6 @@ slides/
 logs/
 
 database.ini
+
+
+.DS_Store
