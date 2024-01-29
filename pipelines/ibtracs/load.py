@@ -60,9 +60,9 @@ def upload_to_postgres(local_filepath: str, table_name: str, schema: str = 'dev'
 def upload_to_bigquery():
     pass
 
-def load_dataset(local_filepath: str, table_name: str):
+def load(table_name: str, local_filepath: str, remote_filepath: str = None, schema: str = 'raw'):
     # Upload to GCS
-    upload_to_gcs()
+    upload_to_gcs(remote_filepath, table_name=table_name,)
 
     # Upload to PostgreSQL
     # logging(f'{local_filepath = }\t{table_name = }')
